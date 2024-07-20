@@ -39,7 +39,7 @@ class CSVDataset(Dataset):
                 'id': self.data.iloc[idx]['id'],
                 'embedding': self.data.iloc[idx]['embedding']}
 
-root_dir = './selected_full_data_102030'
+root_dir = 'selected_full_data_102030'
 dataset = CSVDataset(root_dir)
 dataloader = DataLoader(dataset, batch_size=1024, collate_fn=custom_collate)
 
