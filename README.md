@@ -30,6 +30,8 @@ python3 -m utils.omp out/cluster_LESS_102030_100.pkl out/centers_LESS_102030_100
 
 python3 -m utils.get_segment_data
 ```
+We provide our selected data [here](https://drive.google.com/drive/folders/1Azst0d6-HWAyLYjup4FcP_dnm1y72p0y?hl=zh_CN).
+
 
 ## 6 train with seleted data
 ```
