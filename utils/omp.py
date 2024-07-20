@@ -107,7 +107,6 @@ if __name__ == "__main__":
     parser.add_argument('save_path', type=str, help='Path to the centroids data file.')
     args = parser.parse_args()
 
-    # file_path = '/ssddata/jzhanggr/qyx/kmeans_full_data/out/cluster_LESS_102030_10.pkl'
     df = pd.read_pickle(args.file_path)
     unique_labels = df['label'].unique()
     final_selected_df = pd.DataFrame()
@@ -146,7 +145,6 @@ if __name__ == "__main__":
             for ds, idx in selected_indices:
                 selected_df = filtered_df[(filtered_df['dataset'] == ds) & (filtered_df['id'] == int(idx))]
                 final_selected_df = pd.concat([final_selected_df, selected_df])
-    # (@yaxuan) save top 0.05 data
     final_selected_df.to_pickle(args.save_path)
     
     

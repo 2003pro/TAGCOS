@@ -26,7 +26,7 @@ python3 -m utils.mean_grad --gradient_path grads_full_data/llama2-7b-p0.05-lora-
 
 python3 -m utils.sk_LESS
 
-python3 -m utils.omp out/cluster_LESS_102030_100.pkl out/center_LESS_102030_100.pkl out/top_omp_LESS102030_100.pkl
+python3 -m utils.omp out/cluster_LESS_102030_100.pkl out/centers_LESS_102030_100.pkl out/top_omp_LESS102030_100.pkl
 
 python3 -m utils.get_segment_data
 ```
