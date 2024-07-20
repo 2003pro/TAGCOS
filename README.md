@@ -40,3 +40,9 @@ bash ./script/train/lora_train.sh out/top_omp_LESS102030_100_data.jsonl meta-lla
 
 ## 7 eval
 Please follow the instructions in the evaluation folder to evaluate the performance of the model trained on the selected data by using open-instruct.
+
+```
+bash script/eval/bbh_test.sh
+bash script/eval/mmlu_test.sh
+bash script/eval/tydiqa_test.sh
+```
