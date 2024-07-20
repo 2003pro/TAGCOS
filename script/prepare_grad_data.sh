@@ -17,19 +17,17 @@ datasets["self_instruct"]="data/train/processed/self_instruct/self_instruct_data
 datasets["sharegpt"]="data/train/processed/sharegpt/sharegpt_data.jsonl"
 datasets["stanford_alpaca"]="data/train/processed/stanford_alpaca/stanford_alpaca_data.jsonl"
 datasets["super_ni"]="data/train/processed/super_ni/super_ni_data.jsonl"
-datasets["tulu_v1"]="data/train/processed/tulu_v1/tulu_v1_data.jsonl"
-datasets["tulu_v2"]="data/train/processed/tulu_v2/tulu_v2_data.jsonl"
 datasets["unnatural_instructions"]="data/train/processed/unnatural_instructions/unnatural_instructions_data.jsonl"
 datasets["wizardlm"]="data/train/processed/wizardlm/wizardlm_data.jsonl"
 
 GRADIENT_TYPE="adam"
-OUTPUT_BASE_PATH="../grads_full_data/llama2-7b-p0.05-lora-seed3"
+OUTPUT_BASE_PATH="grads_full_data/llama2-7b-p0.05-lora-seed3"
 DIMS="8192"
 
 # 循环处理每个数据集
 for CKPT in 10 20 30
 do
-  MODEL_BASE_PATH="out/llama2-7b-p0.05-lora-seed3-full_data/checkpoint-${CKPT}"
+  MODEL_BASE_PATH="out/llama2-7b-p0.05-lora-seed3/checkpoint-${CKPT}"
 
   for TRAINING_DATA_NAME in "${!datasets[@]}"
   do
