@@ -10,16 +10,16 @@ import datasets
 import torch
 import torch.distributed as dist
 import transformers
-# from instruction_tuning.train.lora_trainer import LoRAFSDPTrainer, Trainer
+
 from peft import LoraConfig, PeftModel, TaskType, get_peft_model
 from transformers import (AutoModelForCausalLM, AutoTokenizer,
                           DataCollatorForSeq2Seq, HfArgumentParser, Trainer,
                           set_seed)
 
-from less.data_selection.get_training_dataset import get_training_dataset
-from less.train.data_arguments import DataArguments, get_data_statistics
-from less.train.model_arguments import ModelArguments, add_padding_to_tokenizer
-from less.train.training_arguments import TrainingArguments
+from train.get_training_dataset import get_training_dataset
+from train.data_arguments import DataArguments, get_data_statistics
+from train.model_arguments import ModelArguments, add_padding_to_tokenizer
+from train.training_arguments import TrainingArguments
 
 logger = logging.getLogger(__name__)
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
