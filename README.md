@@ -22,7 +22,7 @@ CUDA_VISIBLE_DEVICES=0 bash script/prepare_grad_data.sh
 
 ## 5 select data 
 ```
-python3 -m utils.mean_grad --gradient_path ../grads_full_data/llama2-7b-p0.05-lora-seed3/{}-ckpt{}-adam/dim8192/all_orig.pt --train_file_names hard_coded lima code_alpaca baize cot dolly flan_v2 gpt4_alpaca oasst1 open_orca science self_instruct sharegpt stanford_alpaca super_ni unnatural_instructions wizardlm --ckpts 10 20 30 --checkpoint_weights 2.1569e-06 6.0784e-06 1e-05 --output_path ./selected_full_data_102030
+python3 -m utils.mean_grad --gradient_path grads_full_data/llama2-7b-p0.05-lora-seed3/{}-ckpt{}-adam/dim8192/all_orig.pt --train_file_names hard_coded lima code_alpaca baize cot dolly flan_v2 gpt4_alpaca oasst1 open_orca science self_instruct sharegpt stanford_alpaca super_ni unnatural_instructions wizardlm --ckpts 10 20 30 --checkpoint_weights 2.1569e-06 6.0784e-06 1e-05 --output_path selected_full_data_102030
 
 python3 -m utils.sk_LESS
 
