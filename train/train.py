@@ -16,7 +16,7 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer,
                           DataCollatorForSeq2Seq, HfArgumentParser, Trainer,
                           set_seed)
 
-from train.get_training_dataset import get_training_dataset
+from data_selection.get_training_dataset import get_training_dataset
 from train.data_arguments import DataArguments, get_data_statistics
 from train.model_arguments import ModelArguments, add_padding_to_tokenizer
 from train.training_arguments import TrainingArguments
