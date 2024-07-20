@@ -16,7 +16,6 @@ bash script/train/warmup_lora_train.sh ./data meta-llama/Llama-2-7b-hf 0.05 3 ll
 ```
 
 ## 4 gradient data store
-TODO: manual DDP 2 automatic.
 ```
 CUDA_VISIBLE_DEVICES=0 bash script/prepare_grad_data.sh
 ```
