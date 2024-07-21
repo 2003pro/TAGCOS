@@ -1,3 +1,5 @@
+This is the official implementation of TAGCOS: Task-agnostic Gradient Clustered Coreset Selection for Instruction Tuning Data
+
 ## 1  environment setup
 ```
 cd release
