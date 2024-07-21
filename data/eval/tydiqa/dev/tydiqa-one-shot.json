@@ -1,0 +1,128 @@
+{
+    "finnish": [
+        {
+            "id": "finnish-869940681011188970-16",
+            "lang": "finnish",
+            "context": " Vuodesta 2006 alkaen Ruanda on jaettu neljään maakuntaan, Pohjoinen, Etelä, Itä ja Länsi. Lisäksi pääkaupunki Kigali muodostaa oman hallintoalueensa.[2]",
+            "question": "Mikä on Ruandan pääkaupunki?",
+            "answers": [
+                {
+                    "answer_start": 111,
+                    "text": "Kigali"
+                }
+            ]
+        }
+    ],
+    "telugu": [
+        {
+            "id": "telugu--1689521902545555601-0",
+            "lang": "telugu",
+            "context": "పాతపాడేరు, విశాఖపట్నం జిల్లా, పాడేరు మండలానికి చెందిన గ్రామము.[1] ఇది మండల కేంద్రమైన పాడేరు నుండి 0 కి. మీ. దూరం లోను, సమీప పట్టణమైన అనకాపల్లి నుండి 76 కి. మీ. దూరంలోనూ ఉంది. 2011 భారత జనగణన గణాంకాల ప్రకారం ఈ గ్రామం 830 ఇళ్లతో, 3687 జనాభాతో 268 హెక్టార్లలో విస్తరించి ఉంది. గ్రామంలో మగవారి సంఖ్య 1398, ఆడవారి సంఖ్య 2289. షెడ్యూల్డ్ కులాల సంఖ్య 26 కాగా షెడ్యూల్డ్ తెగల సంఖ్య 2944. గ్రామం యొక్క జనగణన లొకేషన్ కోడ్ 584655[2].పిన్ కోడ్: 531077.",
+            "question": "2011లో పాతపాడేరు గ్రామంలో ఎంతమంది స్త్రీలు ఉన్నారు?",
+            "answers": [
+                {
+                    "answer_start": 315,
+                    "text": "2289"
+                }
+            ]
+        }
+    ],
+    "russian": [
+        {
+            "id": "russian-8439185404748145887-1",
+            "lang": "russian",
+            "context": "Лобачевский в течение 40 лет преподавал в Императорском Казанском университете, в том числе 19 лет руководил им в должности ректора; его активность и умелое руководство вывели университет в число передовых российских учебных заведений. По выражению Н. П. Загоскина, Лобачевский был «великим строителем» Казанского университета[2].",
+            "question": "В каком университете 40 лет преподавал Никола́й Ива́нович Лобаче́вский?",
+            "answers": [
+                {
+                    "answer_start": 42,
+                    "text": "Императорском Казанском"
+                }
+            ]
+        }
+    ],
+    "arabic": [
+        {
+            "id": "arabic-8351649714847405776-0",
+            "lang": "arabic",
+            "context": "  الإسكندر الثالث المقدوني، المعروف بأسماء عديدة أخرى أبرزها: الإسكندر الأكبر، و<b data-parsoid='{\"dsr\":[1849,1870,3,3]}'>الإسكندر الكبير، و<b data-parsoid='{\"dsr\":[1873,1896,3,3]}'>الإسكندر المقدوني، و<b data-parsoid='{\"dsr\":[1899,1924,3,3]}'>الإسكندر ذو القرنين (باليونانية: Ἀλέξανδρος ὁ Μέγας؛ نقحرة: )، هو أحد ملوك مقدونيا الإغريق، ومن أشهر القادة العسكريين والفاتحين عبر التاريخ. وُلد الإسكندر في مدينة پيلا قرابة سنة 356 ق.م، وتتلمذ على يد الفيلسوف والعالم الشهير أرسطو حتى بلغ ربيعه السادس عشر. وبحلول عامه الثلاثين، كان قد أسس إحدى أكبر وأعظم الإمبراطوريات التي عرفها العالم القديم، والتي امتدت من سواحل البحر الأيوني غربًا وصولاً إلى سلسلة جبال الهيمالايا شرقًا. يُعد أحد أنجح القادة العسكريين في مسيرتهم، إذ لم يحصل أن هُزم في أي معركة خاضها على الإطلاق.[1]",
+            "question": "من هو الإسكندر الأكبر ؟",
+            "answers": [
+                {
+                    "answer_start": 183,
+                    "text": "لإسكندر المقدوني، و<b data-parsoid='{\"dsr\":[1899,1924,3,3]}'>الإسكندر ذو ا"
+                }
+            ]
+        }
+    ],
+    "indonesian": [
+        {
+            "id": "indonesian--7112565968699695234-0",
+            "lang": "indonesian",
+            "context": "Lembaga swadaya masyarakat (disingkat LSM) adalah sebuah organisasi yang didirikan oleh perorangan ataupun sekelompok orang yang secara sukarela yang memberikan pelayanan kepada masyarakat umum tanpa bertujuan untuk memperoleh keuntungan dari kegiatannya.",
+            "question": "Apakah yang dimaksud dengan organisasi non pemerintah?",
+            "answers": [
+                {
+                    "answer_start": 50,
+                    "text": "sebuah organisasi yang didirikan oleh perorangan ataupun sekelompok orang yang secara sukarela yang memberikan pelayanan kepada masyarakat umum tanpa bertujuan untuk memperoleh keuntungan dari kegiatannya"
+                }
+            ]
+        }
+    ],
+    "english": [
+        {
+            "id": "english--2241320068429927714-0",
+            "lang": "english",
+            "context": "Home Box Office (HBO) is an American premium cable and satellite television network that is owned by the namesake unit Home Box Office, Inc., a division of AT&T's WarnerMedia. The program which featured on the network consists primarily of theatrically released motion pictures and original television shows, along with made-for-cable movies, documentaries and occasional comedy and concert specials.",
+            "question": "Who owns HBO?",
+            "answers": [
+                {
+                    "answer_start": 119,
+                    "text": "Home Box Office"
+                }
+            ]
+        }
+    ],
+    "swahili": [
+        {
+            "id": "swahili-608099184454860095-20",
+            "lang": "swahili",
+            "context": "Katika mwaka wa 1960 Ufaransa ukatoa uhuru kwa Cameroon, Jamhuri ya Afrika ya Kati, Chad, Congo (Brazzaville), Cote d'Ivoire, Dahomey (Benin), Gabon, Madagascar, Mali, Mauritania, Niger, Senegal na Volta ya Juu (Burkina Faso). ",
+            "question": "Je,nchi ya Gabon ilipata uhuru mwaka upi?",
+            "answers": [
+                {
+                    "answer_start": 16,
+                    "text": "1960"
+                }
+            ]
+        }
+    ],
+    "korean": [
+        {
+            "id": "korean-5259095402185878855-0",
+            "lang": "korean",
+            "context": "일본령 조선()은 한반도 및 그 부속 도서에 있었던 일본 제국의 영토이다. 일제강점기(, 1910년 8월 29일 ~ 1945년 8월 15일)는 식민지로써의 일본령 조선이 존재했던 기간을 가리키며, 한국의 역사에서 한국의 근현대사를 시대별로 나누었을 때 주요 시대 중 하나이다. 한일병합 이후 천황이 조선총독에게 명령을 내리고 조선총독이 조선총독부를 통해 일본 제국 천황의 명을 받아 통치하는 형식으로 식민 지배를 당하던 시기로, 정치적 및 외교적으로 독자적 권한이 박탈된 시기였다.",
+            "question": "일제 강점기는 언제 끝나나요?",
+            "answers": [
+                {
+                    "answer_start": 65,
+                    "text": "1945년 8월 15일"
+                }
+            ]
+        }
+    ],
+    "bengali": [
+        {
+            "id": "bengali--1673457935685231953-2",
+            "lang": "bengali",
+            "context": "অ্যাকিলিস ছিলেন নিম্ফ থেটিস ও মিরমিডন-রাজ পেলেউসের সন্তান। জিউস ও পসেইডন দুজনেই থেটিসের পাণিপ্রার্থী ছিলেন। এই কারণে উভয়ের মধ্যে তীব্র প্রতিদ্বন্দ্ব্বিতাও ছিল। এদিকে ভবিষদ্বাণী করা হয়েছিল যে থেটিস এমন এক সন্তানের জন্ম দেবেন যে তাঁর পিতার তুলনায় অনেক বেশি শক্তিমান হবে। অগ্নি-আনয়নকারী প্রমিথিউস এই ভবিষদ্বাণী সম্পর্কে জিউসে সতর্ক করে দিলে উভয় দেবতাই থেটিসকে বিবাহ করার সংকল্প পরিত্যাগ করেন এবং পেলেউসের সঙ্গে তাঁর বিবাহ দেন।[3]",
+            "question": "ইলিয়াড মহাকাব্যটি কেন্দ্রীয় চরিত্র অ্যাকিলিসের বাবার নাম কী ?",
+            "answers": [
+                {
+                    "answer_start": 42,
+                    "text": "পেলেউসের"
+                }
+            ]
+        }
+    ]
+}

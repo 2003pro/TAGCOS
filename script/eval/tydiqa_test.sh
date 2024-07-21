@@ -1,0 +1,2 @@
+cd ../open-instruct
+python -m eval.tydiqa.run_eval --data_dir data/eval/tydiqa/dev --n_shot 3  --max_num_examples_per_lang 200 --max_context_length 512 --save_dir  test/test_res_tydiqa_omp_100_0.05_LESS102030_bs16 --model out/llama2-7b-0.05-omp-LESS102030-100-lora  --tokenizer out/llama2-7b-0.05-omp-LESS102030-100-lora  --eval_batch_size 16 --use_chat_format --chat_formatting_function eval.templates.create_prompt_with_tulu_chat_format
